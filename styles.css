@@ -10,8 +10,8 @@ body{
     background-color: black;
 }
 
-ul{
-    color: gold;
+footer{
+    background-color: maroon;
 }
 
 table{
@@ -29,4 +29,8 @@ p{
 
 h1, h2, h3, h4, h5, h6{
     color: skyblue;
+}
+
+ul{
+    color: gold;
 }
