@@ -1,8 +1,3 @@
-*{
-font-size: large;
-
-}
-
 a{
     color: hotpink;
 }
@@ -13,6 +8,14 @@ a:visited{
 
 body{
     background-color: black;
+}
+
+ul{
+    color: gold;
+}
+
+table{
+    color: gold;
 }
 
 dd{
