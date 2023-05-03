@@ -16,6 +16,7 @@ footer{
 
 table{
     color: gold;
+    border-color: aliceblue;
 }
 
 dd{
@@ -24,7 +25,15 @@ dd{
 
 p{
     color: gold;
-    font-size: large;
+    font-size: xx-large;
+}
+
+h1{
+    font-size: xx-larger;
+}
+
+h2{
+    font-size: x-larger;
 }
 
 h1, h2, h3, h4, h5, h6{
