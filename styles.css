@@ -1,5 +1,13 @@
+a:visited{
+    color: purple; 
+}
+
 body{
     background-color: #221A0F;
+}
+
+dd{
+    color: #D38E3D;
 }
 
 p{
