@@ -19,14 +19,9 @@ table{
     border-color: aliceblue;
 }
 
-dl{
-    font-size: 100%;
-}
-
 dd{
     color: gold;
 }
-
 
 
 dt{
@@ -35,19 +30,22 @@ dt{
 
 p{
     color: gold;
-    font-size: 150%;
 }
 
 h1{
-    font-size: 300%;
+    font-size: 200%;
 }
 
 h2{
-    font-size: 250%;
+    font-size: 150%;
 }
 
 h1, h2, h3, h4, h5, h6{
     color: skyblue;
+}
+
+html{
+    font-size: 150%;
 }
 
 ul{
