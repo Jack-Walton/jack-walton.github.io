@@ -19,15 +19,15 @@ table{
     border-color: aliceblue;
 }
 
-
+dl{
+    font-size: 100%;
+}
 
 dd{
     color: gold;
 }
 
-dl{
-    font-size: 150%;
-}
+
 
 dt{
     color: lightgray;
