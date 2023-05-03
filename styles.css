@@ -25,15 +25,15 @@ dd{
 
 p{
     color: gold;
-    font-size: xx-large;
+    font-size: 24px;
 }
 
 h1{
-    font-size: xx-larger;
+    font-size: 60px;
 }
 
 h2{
-    font-size: x-larger;
+    font-size: 45px;
 }
 
 h1, h2, h3, h4, h5, h6{
