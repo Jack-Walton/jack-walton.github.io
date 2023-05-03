@@ -23,29 +23,29 @@ table{
 
 dd{
     color: gold;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 dl{
-    font-size: 125%;
+    font-size: 150%;
 }
 
 dt{
     color: lightgray;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 p{
     color: gold;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 h1{
-    font-size: 250%;
+    font-size: 300%;
 }
 
 h2{
-    font-size: 200%;
+    font-size: 250%;
 }
 
 h1, h2, h3, h4, h5, h6{
