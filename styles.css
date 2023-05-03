@@ -1,19 +1,23 @@
+a{
+    color: hotpink;
+}
+
 a:visited{
-    color: purple; 
+    color: greenyellow; 
 }
 
 body{
-    background-color: #221A0F;
+    background-color: black;
 }
 
 dd{
-    color: #D38E3D;
+    color: gold;
 }
 
 p{
-    color: #D38E3D;
+    color: gold;
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #519ABA;
+    color: skyblue;
 }
