@@ -1,3 +1,16 @@
+
+/* the code below is an example of how to embed fonts in CSS code */
+/* 
+@font-face {
+    font-family: dyslexicFont;
+    src: url(fonts/dyslexicFont.woff);
+}
+body {
+    font-family:dyslexicFont;
+}
+*/
+
+
 a{
     color: hotpink;
 }
