@@ -11,25 +11,31 @@ body {
 */
 
 
-a{
-    color: hotpink;
+a:link{
+    color: rgb(245, 112, 178);
+}
+
+a:hover{
+    color: rgb(64, 243, 243);
 }
 
 a:visited{
-    color: greenyellow; 
+    color: rgb(169, 249, 49); 
 }
 
 body{
     background-color: rgb(34, 6, 23);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 footer{
-    background-color: maroon;
+    background-color: rgb(123, 6, 6);
 }
 
 table{
     color: rgb(232, 217, 130);
-    border-color: aliceblue;
+    border-color: rgb(209, 227, 243);
 }
 
 dd{
@@ -42,7 +48,7 @@ dl{
 }
 
 dt{
-    color: lightgray;
+    color: rgb(211, 211, 211);
 }
 
 p{
@@ -58,12 +64,7 @@ h2{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: skyblue;
-}
-
-html{
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(135, 206, 235);
 }
 
 ul{
