@@ -10,6 +10,19 @@ body {
 }
 */
 
+/* This code block is used to define styles for different screen sizes
+@media (max-width: 700px) {
+    
+}
+
+@media (max-width: 1060px) {
+    
+}
+
+@media (min-width: 1061px) {
+    
+}
+*/
 
 a:link{
     color: rgb(245, 112, 178);
