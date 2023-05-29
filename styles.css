@@ -26,8 +26,7 @@ body {
 
 html {
     font-family: 'Didact Gothic', sans-serif;
-
-
+    line-height: 250%;
 }
 
 a:link{
@@ -49,6 +48,12 @@ body{
 
 footer{
     background-color: rgb(123, 6, 6);
+}
+
+label{
+    float: left;
+    padding-right: 4%;
+    color: rgb(232, 217, 130);
 }
 
 table{
