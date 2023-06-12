@@ -1,1 +1,129 @@
+@media (max-width: 700px) {
     
+}
+
+html {
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 2.5;
+    font-size: 28px;
+}
+
+a:link{
+    color: rgb(245, 112, 178);
+}
+
+a:hover{
+    color: rgb(64, 243, 243);
+}
+
+a:visited{
+    color: rgb(169, 249, 49); 
+}
+
+body{
+    background-color: rgb(34, 6, 23);
+}
+
+footer{
+    background-color: rgb(123, 6, 6);
+}
+
+label{
+    float: left;
+    padding-right: 4%;
+    color: rgb(232, 217, 130);
+}
+
+table{
+    color: rgb(232, 217, 130);
+    text-align: left;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+  }
+
+  
+thead th:nth-child(2) {
+    width: 20%;
+  }
+
+  thead th:nth-child(3) {
+    width: 15%;
+  }
+
+  th,
+  td {
+    padding: 20px;
+  }
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+caption{
+    text-align: center;
+    padding: 3%;
+    font-size: 1.25rem;
+}
+
+dd{
+    color: rgb(232, 217, 130);
+}
+
+dl{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+dt{
+    color: rgb(211, 211, 211);
+}
+
+p{
+    color: rgb(232, 217, 130);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: rgb(135, 206, 235);
+}
+
+ul{
+    color: rgb(232, 217, 130);
+}
+thead th,
+tfoot th,
+tfoot td {
+    border: 3px solid purple;
+}
+
+    tbody tr:nth-child(odd) {
+        background-color: hsl(129, 87%, 12%);
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #480208;
+      }
+      
