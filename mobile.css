@@ -8,6 +8,10 @@ html {
     font-size: 28px;
 }
 
+image {
+    width: 100%;
+}
+
 a:link{
     color: rgb(245, 112, 178);
 }
