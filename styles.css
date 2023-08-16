@@ -28,39 +28,39 @@ html {
 }
 
 a:link{
-    color: rgb(245, 112, 178);
+    color: #9EDEB2;
 }
 
 a:hover{
-    color: rgb(64, 243, 243);
+    color: #DED7BD;
 }
 
 a:visited{
-    color: rgb(169, 249, 49); 
+    color: #363EE0; 
 }
 
 body{
-    background-color: rgb(34, 6, 23);
+    background-color: #00591C;
     font-size: large;
 }
 
 footer{
-    background-color: rgb(123, 6, 6);
+    background-color: #E02724;
 }
 
 label{
     float: left;
     padding-right: 4%;
-    color: rgb(232, 217, 130);
+    color: #DED7BD;
 }
 
 table{
-    color: rgb(232, 217, 130);
+    color: #DED7BD;
     text-align: left;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid purple;
+    border: 3px solid #E02724;
 }
 
 thead th:nth-child(1) {
@@ -102,7 +102,7 @@ caption{
 }
 
 dd{
-    color: rgb(232, 217, 130);
+    color: #DED7BD;
 }
 
 dl{
@@ -111,11 +111,11 @@ dl{
 }
 
 dt{
-    color: rgb(211, 211, 211);
+    color: #9EDEB2;
 }
 
 p{
-    color: rgb(232, 217, 130);
+    color: #DED7BD;
 }
 
 h1{
@@ -127,23 +127,23 @@ h2{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: rgb(135, 206, 235);
+    color: #9EDEB2;
 }
 
 ul{
-    color: rgb(232, 217, 130);
+    color: #DED7BD;
 }
 thead th,
 tfoot th,
 tfoot td {
-    border: 3px solid purple;
+    border: 3px solid #E02724;
 }
 
     tbody tr:nth-child(odd) {
-        background-color: hsl(129, 87%, 12%);
+        background-color: #363EE0;
       }
       
       tbody tr:nth-child(even) {
-        background-color: #480208;
+        background-color: #00591C;
       }
       
