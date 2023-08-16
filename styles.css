@@ -1,108 +1,49 @@
-
-/* the code below is an example of how to embed fonts in CSS code */
-/* 
-@font-face {
-    font-family: dyslexicFont;
-    src: url(fonts/dyslexicFont.woff);
-}
-body {
-    font-family:dyslexicFont;
-}
-*/
-
-/* This code block is used to define styles for different screen sizes
-
-
-@media (max-width: 1060px) {
-    
-}
-
-@media (min-width: 1061px) {
-    
-}
-*/
-
-html {
-    font-family: 'Didact Gothic', sans-serif;
+* {
     line-height: 1.75;
 }
 
+h1, h2, h3, h4, h6 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
 a:link{
-    color: #9EDEB2;
+    color: rgb(245, 112, 178);
 }
 
 a:hover{
-    color: #DED7BD;
+    color: rgb(64, 243, 243);
 }
 
 a:visited{
-    color: #363EE0; 
+    color: rgb(169, 249, 49); 
 }
 
 body{
-    background-color: #00591C;
-    font-size: large;
+    background-color: rgb(34, 6, 23);
 }
 
 footer{
-    background-color: #E02724;
+    background-color: rgb(123, 6, 6);
 }
 
 label{
     float: left;
     padding-right: 4%;
-    color: #DED7BD;
+    color: rgb(232, 217, 130);
 }
 
 table{
-    color: #DED7BD;
+    color: rgb(232, 217, 130);
     text-align: left;
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid #E02724;
+    border: 3px solid purple;
 }
 
-thead th:nth-child(1) {
-    width: 30%;
-  }
-
-  
-thead th:nth-child(2) {
-    width: 20%;
-  }
-
-  thead th:nth-child(3) {
-    width: 15%;
-  }
-
-  th,
-  td {
-    padding: 20px;
-  }
-  th {
-    letter-spacing: 2px;
-  }
-  
-  td {
-    letter-spacing: 1px;
-  }
-  
-  tbody td {
-    text-align: center;
-  }
-  
-  tfoot th {
-    text-align: right;
-  }
-caption{
-    text-align: center;
-    padding: 3%;
-    font-size: 1.25rem;
-}
 
 dd{
-    color: #DED7BD;
+    color: rgb(232, 217, 130);
 }
 
 dl{
@@ -111,39 +52,31 @@ dl{
 }
 
 dt{
-    color: #9EDEB2;
+    color: rgb(211, 211, 211);
 }
 
 p{
-    color: #DED7BD;
+    color: rgb(232, 217, 130);
+    
+}
+
+p, dl {
+    font-size: 20px;
+    font-family: 'Didact Gothic', serif;
 }
 
 h1{
-    font-size: 2rem;
-}
-
-h2{
     font-size: 1.5rem;
 }
 
+h2{
+    font-size: 1.25rem;
+}
+
 h1, h2, h3, h4, h5, h6{
-    color: #9EDEB2;
+    color: rgb(135, 206, 235);
 }
 
 ul{
-    color: #DED7BD;
+    color: rgb(232, 217, 130);
 }
-thead th,
-tfoot th,
-tfoot td {
-    border: 3px solid #E02724;
-}
-
-    tbody tr:nth-child(odd) {
-        background-color: #363EE0;
-      }
-      
-      tbody tr:nth-child(even) {
-        background-color: #00591C;
-      }
-      
