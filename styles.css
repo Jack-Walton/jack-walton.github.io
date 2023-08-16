@@ -60,13 +60,13 @@ p{
     
 }
 
-p, dl {
+p, dl, a {
     font-size: 20px;
     font-family: 'Didact Gothic', serif;
 }
 
 h1{
-    font-size: 1.5rem;
+    font-size: 1.75rem;
 }
 
 h2{
