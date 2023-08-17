@@ -6,44 +6,23 @@ h1, h2, h3, h4, h6 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-a:link{
-    color: rgb(245, 112, 178);
-}
-
-a:hover{
-    color: rgb(64, 243, 243);
-}
-
-a:visited{
-    color: rgb(169, 249, 49); 
+a {
+    color: #C40A18;
 }
 
 body{
-    background-color: rgb(34, 6, 23);
+    background-color: #120400;
 }
 
 footer{
-    background-color: rgb(123, 6, 6);
+    background-color: #163618;
 }
 
-label{
-    float: left;
-    padding-right: 4%;
-    color: rgb(232, 217, 130);
-}
 
-table{
-    color: rgb(232, 217, 130);
-    text-align: left;
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-    border: 3px solid purple;
-}
 
 
 dd{
-    color: rgb(232, 217, 130);
+    color: #F28F77;
 }
 
 dl{
@@ -52,31 +31,25 @@ dl{
 }
 
 dt{
-    color: rgb(211, 211, 211);
+    color: #F28F77;
 }
 
 p{
-    color: rgb(232, 217, 130);
+    color: #F28F77;
     
 }
 
 p, dl, a {
     font-size: 20px;
-    font-family: 'Didact Gothic', serif;
+    font-family: serif;
 }
 
-h1{
+h1 {
     font-size: 3rem;
+    color: #C40A18;
 }
 
-h2{
-    font-size: 1.25rem;
-}
-
-h1, h2, h3, h4, h5, h6{
-    color: rgb(135, 206, 235);
-}
-
-ul{
-    color: rgb(232, 217, 130);
+h2 {
+    font-size: 3rem;
+    color: #AD6E03;
 }
