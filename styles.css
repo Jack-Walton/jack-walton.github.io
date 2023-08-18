@@ -7,22 +7,18 @@ h1, h2, h3, h4, h6 {
 }
 
 a {
-    color: #C40A18;
+    color: #F2690C;
 }
 
 body{
-    background-color: #120400;
+    background-color: #000000;
 }
 
 footer{
-    background-color: #163618;
-}
-
-
-
-
-dd{
-    color: #F28F77;
+    background-color: #000000;
+    border-color: #FFFFFF;
+    border: #FFFFFF;
+    border-radius: .5rem;
 }
 
 dl{
@@ -30,13 +26,8 @@ dl{
     padding-bottom: 1%;
 }
 
-dt{
-    color: #F28F77;
-}
-
-p{
-    color: #F28F77;
-    
+p, dt, dd{
+    color: #FFFFFF;
 }
 
 p, dl, a {
@@ -46,10 +37,11 @@ p, dl, a {
 
 h1 {
     font-size: 3rem;
-    color: #C40A18;
+    color: #EB2900;
 }
 
 h2 {
-    font-size: 3rem;
-    color: #AD6E03;
+    font-size: 2rem;
+    color: #F2BE0C;
+
 }
