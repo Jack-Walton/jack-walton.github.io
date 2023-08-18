@@ -1,5 +1,5 @@
 * {
-    line-height: 1.75;
+    
 }
 
 h1, h2, h3, h4, h6 {
@@ -21,9 +21,21 @@ footer{
     border-radius: .5rem;
 }
 
+p, dl {
+    line-height: 1.75;
+}
+
 dl{
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+dt {
+    margin-bottom: .5rem;
+}
+
+dd {
+    text-align: justify;
 }
 
 p, dt, dd{
@@ -38,10 +50,57 @@ p, dl, a {
 h1 {
     font-size: 3rem;
     color: #EB2900;
+    text-align: center;
 }
 
 h2 {
     font-size: 2rem;
     color: #F2BE0C;
+
+}
+
+.row {
+    display: flex;
+}
+
+.column-a {
+    
+    flex: 90%;
+    margin-right: 5%;
+}
+
+.column-b {
+    flex: 10%;
+    background-color: #EB2900;
+    
+
+}
+
+.liner-text {
+    font-size: 2rem;
+    color: #F2BE0C;
+    text-align: center;
+    font-weight: bold;   
+}
+
+footer {
+    background-color: #F2BE0C;
+    border-radius: 0%;
+    margin-top: 1.25rem;
+    
+}
+
+.logo {
+    height: 4rem;
+    flex-direction;
+    padding-top: 1rem;
+}
+
+.row-b{
+    align-items:;
+}
+
+.logo-box{
+    display: inline-block;
 
 }
