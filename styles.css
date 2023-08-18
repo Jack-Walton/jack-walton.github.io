@@ -87,20 +87,13 @@ footer {
     background-color: #F2BE0C;
     border-radius: 0%;
     margin-top: 1.25rem;
+    display: flex;
+    justify-content: space-around;
     
 }
 
 .logo {
     height: 4rem;
-    flex-direction;
     padding-top: 1rem;
-}
-
-.row-b{
-    align-items:;
-}
-
-.logo-box{
-    display: inline-block;
 
 }
