@@ -1,30 +1,32 @@
-/* Reset some default browser styles */
-body, h1, h2, p, dl, dt, dd {
+/* Reset default browser styles */
+body, h1, h2, p, dl, dt, dd, ul, th, td {
     margin: 0;
     padding: 0;
 }
 
-/* Apply a dark background color and set font styles */
+/* Global styling */
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-color: #121212; /* Dark background color */
+    background-color: #121212; /* Dark background */
     color: #fff; /* White text */
     line-height: 1.6;
-    margin: 0; /* Remove body margin to make use of the full viewport width */
+    margin: 0; /* Remove body margin */
 }
 
-/* Center content */
+/* Center content on the page */
 .center-content {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
-/* Container for content */
+/* Container for page content */
 .container {
-    max-width: 100%; /* Use full viewport width */
-    padding: 10px; /* Adjust padding for smaller screens */
+    max-width: 100%; /* Full viewport width */
+    padding: 20px;
     background-color: #1a1a1a; /* Slightly lighter background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
@@ -35,14 +37,13 @@ header {
     padding: 10px;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    flex-direction: column; /* Change to a vertical layout for small screens */
 }
 
 /* Page title style */
 .portfolio-title {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 24px; /* Adjusted font size for mobile */
     margin-top: 10px;
     color: aliceblue;
 }
@@ -51,6 +52,7 @@ header {
 .welcome-section, .selected-work-section, .introduction-section, .conclusion-section {
     margin-top: 20px;
     max-width: 100%;
+    padding: 10px; /* Adjusted padding for mobile */
 }
 
 /* Heading styles */
@@ -58,33 +60,28 @@ h1, h2, h3 {
     color: #0099cc; /* Blue text color */
     margin-top: 20px;
     font-weight: bold;
-    font-size: 20px; /* Adjust font size for smaller screens */
+    font-size: 18px; /* Adjusted font size for mobile */
 }
 
-/* CSS for header navigation */
-.header-nav {
-    display: flex;
-    align-items: center;
-    flex-direction: column; /* Change to a vertical layout for small screens */
-}
-
-/* Spacing between h1 and other elements in the header-nav */
-.header-nav h1 {
-    margin-bottom: 10px; /* Adjust margin for spacing */
-}
-
-/* Adjusted h2 and h3 font sizes */
 h2 {
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 20px; /* Adjusted font size for mobile */
 }
 
 h3 {
-    font-size: 16px; /* Adjust font size for smaller screens */
+    font-size: 16px; /* Adjusted font size for mobile */
+}
+
+/* Style for the "LEGEND" text */
+.legend {
+    color: #888; /* Grey color */
+    padding: 10px; /* Add padding for separation */
+    padding-left: 20px; /* Adjusted padding for mobile */
+    font-size: 12px !important; /* Use !important to override global p element rules */
 }
 
 /* Paragraph styles */
-p {
-    font-size: 14px; /* Adjust font size for smaller screens */
+p, ul, th, td {
+    font-size: 16px;
     line-height: 1.6;
     margin-top: 10px;
 }
@@ -103,14 +100,7 @@ a:hover {
 /* List styles */
 ul {
     list-style: disc;
-    margin-top: 10px;
     padding-left: 20px;
-}
-
-li {
-    font-size: 14px; /* Adjust font size for smaller screens */
-    line-height: 1.6;
-    margin-bottom: 10px;
 }
 
 /* Definition term styles */
@@ -118,15 +108,37 @@ dt {
     font-weight: bold;
 }
 
-/* Style for the card container */
+/* Style for card containers and content containers */
 .card-container, .content-container {
-    background-color: #222e36; /* Dark blue background for the card container */
-    color: #fff; /* White text for the card container */
-    padding: 10px;
+    background-color: #222e36; /* Dark blue background */
+    color: #fff; /* White text */
+    padding: 10px; /* Add padding for space within the card */
     margin: 10px 0; /* Provide vertical spacing and align to the left */
-    border-radius: 5px; /* Rounded corners for the card container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-    max-width: 100%; /* Limit the width for content and center it */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    max-width: 100%;
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Adjusted margin for mobile */
+}
+
+table, th, td {
+    border: 1px solid #0099cc; /* Blue border for table and cells */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
 }
 
 /* Footer styles with a lighter background */
@@ -135,7 +147,7 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
-    margin: 0; /* Remove margin to eliminate the gap */
+    margin: 0; /* Remove margin */
 }
 
 /* Container for social links */
@@ -147,26 +159,45 @@ footer {
 
 /* Style for individual social links */
 .social-link {
-    margin: 0 20px;
+    margin: 0 10px; /* Adjusted margin for mobile */
 }
 
 /* Set a consistent size for social icons */
 .social-link img {
-    width: 30px; /* Adjust icon size for smaller screens */
-    height: 30px; /* Adjust icon size for smaller screens */
+    width: 30px; /* Adjusted icon size for mobile */
+    height: 30px; /* Adjusted icon size for mobile */
 }
 
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
     color: gold; /* Blue text color */
     background-color: #222e36; /* Accent color for background */
-    padding: 5px 10px; /* Add some padding */
+    padding: 5px 10px; /* Add padding */
     border-radius: 5px; /* Rounded corners */
     font-weight: bold;
 }
 
+img {
+    padding-left: 10px;
+    max-width: 100%; /* Adjusted max-width for mobile */
+}
+
+/* Paragraph styles inside .legend divs */
+.legend p {
+    font-size: 12px !important; /* Use !important to override global p element rules */
+}
+
+.legend li {
+    font-size: 12px !important; /* Use !important to override global p element rules */
+}
+
 .reference-heading {
     text-align: center;
+}
+
+caption, .figure-caption {
+    padding-top: 10px; /* Adjusted padding for mobile */
+    font-weight: bold;
 }
 
 /* Adjust styles as needed */
