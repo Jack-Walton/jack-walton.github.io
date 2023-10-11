@@ -13,6 +13,13 @@ body {
     margin: 0; /* Remove body margin to make use of the full viewport width */
 }
 
+/* Center content */
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Container for content */
 .container {
     max-width: 100%; /* Use full viewport width */
@@ -27,7 +34,10 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: right;
+    text-align: center;
+    display: flex; /* Add flex container */
+    justify-content: space-between; /* Elements inside header appear side-by-side */
+    align-items: center; /* Center vertically */
 }
 
 /* Page title style */
@@ -35,20 +45,40 @@ header {
     font-size: 36px;
     margin-top: 10px;
     color: aliceblue;
-    
 }
 
 /* Section styles */
 .welcome-section, .selected-work-section {
     margin-top: 20px;
+    max-width: 1000px;
 }
 
 /* Heading styles */
 h1, h2, h3 {
-    font-size: 28px;
     color: #0099cc; /* Blue text color */
     margin-top: 20px;
     font-weight: bold;
+    font-size: 24px; /* Added font-size */
+}
+
+/* CSS for header navigation */
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Spacing between h1 and other elements in the header-nav */
+.header-nav h1 {
+    margin-right: 10px;
+}
+
+/* Adjusted h2 and h3 font sizes */
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 /* Paragraph styles */
@@ -61,7 +91,7 @@ p {
 /* Link styles */
 a {
     color: gold; /* Blue link text color */
-    text-decoration: none;
+    text-decoration: underline; /* Underline links */
     transition: color 0.3s;
 }
 
@@ -88,24 +118,14 @@ dt {
 }
 
 /* Style for the card container */
-.card-container {
+.card-container, .content-container {
     background-color: #222e36; /* Dark blue background for the card container */
     color: #fff; /* White text for the card container */
     padding: 10px; /* Add padding to create space within the card */
     margin: 10px 0; /* Provide vertical spacing and align to the left */
     border-radius: 5px; /* Rounded corners for the card container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-}
-
-
-.content-container {
-    background-color: #222e36; /* Dark blue background for the card container */
-    color: #fff; /* White text for the card container */
-    padding: 10px; /* Add padding to create space within the card */
-    margin: 10px 0; /* Provide vertical spacing and align to the left */
-    border-radius: 5px; /* Rounded corners for the card container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-    
+    max-width: 1000px; /* Limit the width for content and center it */
 }
 
 /* Footer styles with a lighter background */
@@ -123,7 +143,6 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
 
 /* Style for individual social links */
 .social-link {

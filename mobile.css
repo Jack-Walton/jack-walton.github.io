@@ -13,13 +13,21 @@ body {
     margin: 0; /* Remove body margin to make use of the full viewport width */
 }
 
+/* Center content */
+.center-content {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center;
+    justify-content: center;
+}
+
 /* Container for content */
 .container {
     max-width: 100%; /* Use full viewport width */
     padding: 20px;
     background-color: #1a1a1a; /* Slightly lighter background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Header styles */
@@ -27,12 +35,16 @@ header {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    text-align: right;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    justify-content: center;
+    align-items: center;
 }
 
 /* Page title style */
 .portfolio-title {
-    font-size: 36px;
+    font-size: 28px; /* Smaller font size for mobile */
     margin-top: 10px;
     color: aliceblue;
 }
@@ -40,14 +52,37 @@ header {
 /* Section styles */
 .welcome-section, .selected-work-section {
     margin-top: 20px;
+    max-width: 100%;
+    padding: 10px; /* Reduced padding for mobile */
 }
 
 /* Heading styles */
 h1, h2, h3 {
-    font-size: 28px;
-    color: #0099cc; /* Blue text color */
+    color: #0099cc;
     margin-top: 20px;
     font-weight: bold;
+    font-size: 20px; /* Smaller font size for mobile */
+}
+
+/* CSS for header navigation */
+.header-nav {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: center;
+}
+
+/* Spacing between h1 and other elements in the header-nav */
+.header-nav h1 {
+    margin-bottom: 10px; /* Adjust the spacing between h1 and other elements */
+}
+
+/* Adjusted h2 and h3 font sizes */
+h2 {
+    font-size: 24px; /* Smaller font size for mobile */
+}
+
+h3 {
+    font-size: 16px; /* Smaller font size for mobile */
 }
 
 /* Paragraph styles */
@@ -59,13 +94,13 @@ p {
 
 /* Link styles */
 a {
-    color: gold; /* Blue link text color */
-    text-decoration: none;
+    color: gold;
+    text-decoration: underline;
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #FFA500; /* Orange on hover */
+    color: #FFA500;
 }
 
 /* List styles */
@@ -87,31 +122,23 @@ dt {
 }
 
 /* Style for the card container */
-.card-container {
-    background-color: #222e36; /* Dark blue background for the card container */
-    color: #fff; /* White text for the card container */
-    padding: 10px; /* Add padding to create space within the card */
-    margin: 10px 0; /* Provide vertical spacing and align to the left */
-    border-radius: 5px; /* Rounded corners for the card container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-}
-
-.content-container {
-    background-color: #222e36; /* Dark blue background for the card container */
-    color: #fff; /* White text for the card container */
-    padding: 10px; /* Add padding to create space within the card */
-    margin: 10px 0; /* Provide vertical spacing and align to the left */
-    border-radius: 5px; /* Rounded corners for the card container */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+.card-container, .content-container {
+    background-color: #222e36;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
 }
 
 /* Footer styles with a lighter background */
 footer {
-    background-color: #262626; /* Slightly lighter footer background */
+    background-color: #262626;
     color: #fff;
     padding: 10px;
     text-align: center;
-    margin: 0; /* Remove margin to eliminate the gap */
+    margin: 0;
 }
 
 /* Container for social links */
@@ -134,23 +161,9 @@ footer {
 
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
-    color: gold; /* Blue text color */
-    background-color: #222e36; /* Accent color for background */
-    padding: 5px 10px; /* Add some padding */
-    border-radius: 5px; /* Rounded corners */
+    color: gold;
+    background-color: #222e36;
+    padding: 5px 10px;
+    border-radius: 5px;
     font-weight: bold;
-}
-
-/* Mobile Styles */
-@media (max-width: 768px) {
-    /* Add your mobile-specific styles here */
-    body {
-        font-size: 14px; /* Adjust the font size for smaller screens */
-    }
-
-    .container {
-        padding: 10px; /* Adjust padding for smaller screens */
-    }
-
-    /* Adjust other styles as needed for mobile devices */
 }
