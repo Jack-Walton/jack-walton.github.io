@@ -170,4 +170,5 @@ nav a[href="#main-content"] {
     padding: 5px 10px;
     border-radius: 5px;
     font-weight: bold;
+    visibility: hidden;
 }
