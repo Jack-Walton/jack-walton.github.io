@@ -66,7 +66,6 @@ dl {
     margin: 10px 0; /* Provide vertical spacing and align to the left */
     border-radius: 5px; /* Rounded corners for the card container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-    max-width: 600px; /* Set a fixed width for the card container */
 }
 
 /* Indent the content of <dd> elements */
