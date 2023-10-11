@@ -49,7 +49,7 @@ h2 {
 
 /* Link styles */
 a {
-    color: #007acc;
+    color: #FFD700; /* Vivid Yellow link text */
     text-decoration: none;
 }
 
@@ -64,15 +64,13 @@ dd {
 
 /* Style for the card container */
 .card-container {
-    background-color: #01436e; /* Dark blue background for the card container */
+    background-color: #425a69; /* Dark blue background for the card container */
     color: #fff; /* White text for the card container */
     padding: 10px; /* Add padding to create space within the card */
     margin: 10px 0; /* Provide vertical spacing and align to the left */
     border-radius: 5px; /* Rounded corners for the card container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-
 }
-
 
 /* Footer styles with a lighter background */
 footer {
@@ -110,17 +108,24 @@ nav a[href="#main-content"] {
     font-weight: bold;
 }
 
-/* Mobile Styles */
-@media screen and (max-width: 768px) {
-    /* Add mobile styles here */
+/* Mobile-friendly styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
     body {
-        font-size: 16px; /* Example: Adjust font size for smaller screens */
+        font-size: 16px;
     }
 
-    .card-container {
-        max-width: 100%; /* Full width for cards on mobile screens */
-        margin: 10px; /* Adjust margin for spacing on mobile screens */
+    .container {
+        padding: 10px;
     }
 
-    /* Add more mobile-specific styles as needed */
+    .portfolio-title {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    /* More mobile styles... */
 }
