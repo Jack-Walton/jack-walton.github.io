@@ -1,0 +1,123 @@
+/* Reset some default browser styles */
+body, h1, h2, p, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark background color and set font styles */
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    background-color: #121212; /* Dark background color */
+    color: #fff; /* White text */
+    line-height: 1.6;
+    margin: 0; /* Remove body margin to make use of full viewport width */
+}
+
+/* Container for content */
+.container {
+    max-width: 100%; /* Use full viewport width */
+    padding: 20px;
+    background-color: #1a1a1a; /* Slightly lighter background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+
+/* Page title style */
+.portfolio-title {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+/* Section styles */
+.welcome-section, .selected-work-section {
+    margin-top: 20px;
+}
+
+/* Heading styles */
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+/* Link styles */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+/* List styles */
+dl {
+    margin-top: 10px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+/* Footer styles with a lighter background */
+footer {
+    background-color: #262626; /* Slightly lighter footer background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0; /* Remove margin to eliminate the gap */
+}
+
+/* Container for social links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow social links to wrap on smaller screens */
+}
+
+/* Style for individual social links */
+.social-link {
+    margin: 10px; /* Add margin for spacing between social links */
+}
+
+/* Set a consistent size for social icons */
+.social-link img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Prominent style for the "Skip to main content" link */
+nav a[href="#main-content"] {
+    color: #FFD700; /* Vivid Yellow */
+    background-color: #007acc; /* Accent color for background */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: bold;
+}
+
+/* Adjust styles as needed */
+
+/* Media query for smaller screens (e.g., mobile) */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens here */
+    .container {
+        padding: 10px;
+    }
+    
+    .portfolio-title {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
