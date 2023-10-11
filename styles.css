@@ -49,7 +49,7 @@ h2 {
 
 /* Link styles */
 a {
-    color: #007acc;
+    color: #FFD700; /* Vivid Yellow link text */
     text-decoration: none;
 }
 
@@ -58,19 +58,18 @@ dl {
     margin-top: 10px;
 }
 
+dd {
+    margin-top: 15px;
+}
+
 /* Style for the card container */
 .card-container {
-    background-color: #01436e; /* Dark blue background for the card container */
+    background-color: #425a69; /* Dark blue background for the card container */
     color: #fff; /* White text for the card container */
     padding: 10px; /* Add padding to create space within the card */
     margin: 10px 0; /* Provide vertical spacing and align to the left */
     border-radius: 5px; /* Rounded corners for the card container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
-}
-
-/* Indent the content of <dd> elements */
-.card-container dd {
-    padding-left: 15px; /* Add left padding to indent the content */
 }
 
 /* Footer styles with a lighter background */
