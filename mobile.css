@@ -121,7 +121,7 @@ dt {
     font-weight: bold;
 }
 
-/* Style for the card container */
+/* Style for the card container and card content */
 .card-container, .content-container {
     background-color: #222e36;
     color: #fff;
@@ -130,6 +130,10 @@ dt {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     max-width: 100%;
+}
+
+.card-container dd {
+    font-size: 16px; /* Match the paragraph text size */
 }
 
 /* Footer styles with a lighter background */
