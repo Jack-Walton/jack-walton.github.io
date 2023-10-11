@@ -42,8 +42,17 @@ header {
 }
 
 /* Heading styles */
-h2 {
-    font-size: 24px;
+h1, h2, h3 {
+    font-size: 28px;
+    color: #FFD700; /* Vivid Yellow */
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.6;
     margin-top: 10px;
 }
 
@@ -51,15 +60,29 @@ h2 {
 a {
     color: #FFD700; /* Vivid Yellow link text */
     text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #FFA500; /* Orange on hover */
 }
 
 /* List styles */
-dl {
+ul {
+    list-style: disc;
     margin-top: 10px;
+    padding-left: 20px;
 }
 
-dd {
-    margin-top: 15px;
+li {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Definition term styles */
+dt {
+    font-weight: bold;
 }
 
 /* Style for the card container */
