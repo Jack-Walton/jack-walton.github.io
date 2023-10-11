@@ -64,7 +64,7 @@ dd {
 
 /* Style for the card container */
 .card-container {
-    background-color: #425a69; /* Dark blue background for the card container */
+    background-color: #222e36; /* Dark blue background for the card container */
     color: #fff; /* White text for the card container */
     padding: 10px; /* Add padding to create space within the card */
     margin: 10px 0; /* Provide vertical spacing and align to the left */
@@ -102,7 +102,7 @@ footer {
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
     color: #FFD700; /* Vivid Yellow */
-    background-color: #01436e; /* Accent color for background */
+    background-color: #222e36; /* Accent color for background */
     padding: 5px 10px; /* Add some padding */
     border-radius: 5px; /* Rounded corners */
     font-weight: bold;
