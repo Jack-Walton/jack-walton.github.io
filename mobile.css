@@ -16,18 +16,16 @@ body {
 /* Center content */
 .center-content {
     display: flex;
-    flex-direction: column; /* Stack elements vertically on mobile */
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 /* Container for content */
 .container {
     max-width: 100%; /* Use full viewport width */
-    padding: 20px;
+    padding: 10px; /* Adjust padding for smaller screens */
     background-color: #1a1a1a; /* Slightly lighter background */
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Header styles */
@@ -37,70 +35,69 @@ header {
     padding: 10px;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Stack elements vertically on mobile */
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column; /* Change to a vertical layout for small screens */
 }
 
 /* Page title style */
 .portfolio-title {
-    font-size: 28px; /* Smaller font size for mobile */
+    font-size: 24px; /* Adjust font size for smaller screens */
     margin-top: 10px;
     color: aliceblue;
 }
 
 /* Section styles */
-.welcome-section, .selected-work-section {
+.welcome-section, .selected-work-section, .introduction-section, .conclusion-section {
     margin-top: 20px;
     max-width: 100%;
-    padding: 10px; /* Reduced padding for mobile */
 }
 
 /* Heading styles */
 h1, h2, h3 {
-    color: #0099cc;
+    color: #0099cc; /* Blue text color */
     margin-top: 20px;
     font-weight: bold;
-    font-size: 20px; /* Smaller font size for mobile */
+    font-size: 20px; /* Adjust font size for smaller screens */
 }
 
 /* CSS for header navigation */
 .header-nav {
     display: flex;
-    flex-direction: column; /* Stack elements vertically on mobile */
     align-items: center;
+    flex-direction: column; /* Change to a vertical layout for small screens */
 }
 
 /* Spacing between h1 and other elements in the header-nav */
 .header-nav h1 {
-    margin-bottom: 10px; /* Adjust the spacing between h1 and other elements */
+    margin-bottom: 10px; /* Adjust margin for spacing */
 }
 
 /* Adjusted h2 and h3 font sizes */
 h2 {
-    font-size: 24px; /* Smaller font size for mobile */
+    font-size: 24px; /* Adjust font size for smaller screens */
 }
 
 h3 {
-    font-size: 16px; /* Smaller font size for mobile */
+    font-size: 16px; /* Adjust font size for smaller screens */
 }
 
 /* Paragraph styles */
 p {
-    font-size: 16px;
+    font-size: 14px; /* Adjust font size for smaller screens */
     line-height: 1.6;
     margin-top: 10px;
 }
 
 /* Link styles */
 a {
-    color: gold;
-    text-decoration: underline;
+    color: gold; /* Blue link text color */
+    text-decoration: underline; /* Underline links */
     transition: color 0.3s;
 }
 
 a:hover {
-    color: #FFA500;
+    color: #FFA500; /* Orange on hover */
 }
 
 /* List styles */
@@ -111,7 +108,7 @@ ul {
 }
 
 li {
-    font-size: 16px;
+    font-size: 14px; /* Adjust font size for smaller screens */
     line-height: 1.6;
     margin-bottom: 10px;
 }
@@ -121,28 +118,24 @@ dt {
     font-weight: bold;
 }
 
-/* Style for the card container and card content */
+/* Style for the card container */
 .card-container, .content-container {
-    background-color: #222e36;
-    color: #fff;
+    background-color: #222e36; /* Dark blue background for the card container */
+    color: #fff; /* White text for the card container */
     padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 100%;
-}
-
-.card-container dd {
-    font-size: 16px; /* Match the paragraph text size */
+    margin: 10px 0; /* Provide vertical spacing and align to the left */
+    border-radius: 5px; /* Rounded corners for the card container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    max-width: 100%; /* Limit the width for content and center it */
 }
 
 /* Footer styles with a lighter background */
 footer {
-    background-color: #262626;
+    background-color: #262626; /* Slightly lighter footer background */
     color: #fff;
     padding: 10px;
     text-align: center;
-    margin: 0;
+    margin: 0; /* Remove margin to eliminate the gap */
 }
 
 /* Container for social links */
@@ -159,16 +152,21 @@ footer {
 
 /* Set a consistent size for social icons */
 .social-link img {
-    width: 40px;
-    height: 40px;
+    width: 30px; /* Adjust icon size for smaller screens */
+    height: 30px; /* Adjust icon size for smaller screens */
 }
 
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
-    color: gold;
-    background-color: #222e36;
-    padding: 5px 10px;
-    border-radius: 5px;
+    color: gold; /* Blue text color */
+    background-color: #222e36; /* Accent color for background */
+    padding: 5px 10px; /* Add some padding */
+    border-radius: 5px; /* Rounded corners */
     font-weight: bold;
-    visibility: hidden;
 }
+
+.reference-heading {
+    text-align: center;
+}
+
+/* Adjust styles as needed */
