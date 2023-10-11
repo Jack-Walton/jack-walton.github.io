@@ -97,6 +97,17 @@ dt {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
 }
 
+
+.content-container {
+    background-color: #222e36; /* Dark blue background for the card container */
+    color: #fff; /* White text for the card container */
+    padding: 10px; /* Add padding to create space within the card */
+    margin: 10px 0; /* Provide vertical spacing and align to the left */
+    border-radius: 5px; /* Rounded corners for the card container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    max-width:1000px;
+}
+
 /* Footer styles with a lighter background */
 footer {
     background-color: #262626; /* Slightly lighter footer background */
@@ -112,6 +123,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
 
 /* Style for individual social links */
 .social-link {
