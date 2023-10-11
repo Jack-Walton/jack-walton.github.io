@@ -58,13 +58,20 @@ dl {
     margin-top: 10px;
 }
 
-dt {
-    font-weight: bold;
-    margin-top: 5px;
+/* Style for the card container */
+.card-container {
+    background-color: #01436e; /* Dark blue background for the card container */
+    color: #fff; /* White text for the card container */
+    padding: 10px; /* Add padding to create space within the card */
+    margin: 10px 0; /* Provide vertical spacing and align to the left */
+    border-radius: 5px; /* Rounded corners for the card container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    max-width: 600px; /* Set a fixed width for the card container */
 }
 
-dd {
-    margin-bottom: 10px;
+/* Indent the content of <dd> elements */
+.card-container dd {
+    padding-left: 15px; /* Add left padding to indent the content */
 }
 
 /* Footer styles with a lighter background */
@@ -97,7 +104,7 @@ footer {
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
     color: #FFD700; /* Vivid Yellow */
-    background-color: #007acc; /* Accent color for background */
+    background-color: #01436e; /* Accent color for background */
     padding: 5px 10px; /* Add some padding */
     border-radius: 5px; /* Rounded corners */
     font-weight: bold;
