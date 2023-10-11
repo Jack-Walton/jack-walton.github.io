@@ -1,5 +1,5 @@
 /* Reset default browser styles */
-body, h1, h2, p, dl, dt, dd {
+body, h1, h2, p, dl, dt, dd, ul, th, td {
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,7 @@ header {
     padding: 10px;
     text-align: center;
     display: flex; /* Flex container */
-    justify-content: space-between; /* Elements appear side-by-side */
+    justify-content: space between; /* Elements appear side-by-side */
     align-items: center; /* Center vertically */
 }
 
@@ -61,30 +61,26 @@ h1, h2, h3 {
     font-size: 24px; /* Adjusted font size */
 }
 
-/* Header navigation styles */
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
-/* Spacing between h1 and other elements in the header-nav */
-.header-nav h1 {
-    margin-right: 10px;
-}
-
-/* Adjusted font sizes for h2 and h3 */
 h2 {
-    font-size: 28px;
+    font-size: 28px; /* Adjusted font size */
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 18px; /* Adjusted font size */
+}
+
+/* Style for the "LEGEND" text */
+.legend {
+    color: #888; /* Grey color */
+    padding: 10px; /* Add padding for separation */
+    padding-left: 100px;
+    font-size: 12px !important; /* Use !important to override global p element rules */
 }
 
 /* Paragraph styles */
-p {
+p, ul, th, td {
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.8; /* Increase line height for better spacing between lines */
     margin-top: 10px;
 }
 
@@ -102,14 +98,7 @@ a:hover {
 /* List styles */
 ul {
     list-style: disc;
-    margin-top: 10px;
     padding-left: 20px;
-}
-
-li {
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 10px;
 }
 
 /* Definition term styles */
@@ -126,6 +115,28 @@ dt {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     max-width: 1000px; /* Limit the width and center content */
+}
+
+/* Table styles */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+table, th, td {
+    border: 1px solid #0099cc; /* Blue border for table and cells */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
 }
 
 /* Footer styles with a lighter background */
@@ -164,8 +175,27 @@ nav a[href="#main-content"] {
     font-weight: bold;
 }
 
+img {
+    padding-left: 10px;
+    max-width: 900px;
+}
+
+/* Paragraph styles inside .legend divs */
+.legend p {
+    font-size: 12px !important; /* Use !important to override global p element rules */
+}
+
+.legend li {
+    font-size: 12px !important; /* Use !important to override global p element rules */
+}
+
 .reference-heading {
     text-align: center;
+}
+
+caption, .figure-caption {
+    padding-top: 20px;
+    font-weight: bold;
 }
 
 /* Adjust styles as needed */
