@@ -10,7 +10,7 @@ body {
     background-color: #121212; /* Dark background color */
     color: #fff; /* White text */
     line-height: 1.6;
-    margin: 0; /* Remove body margin to make use of full viewport width */
+    margin: 0; /* Remove body margin to make use of the full viewport width */
 }
 
 /* Container for content */
@@ -34,6 +34,8 @@ header {
 .portfolio-title {
     font-size: 36px;
     margin-top: 10px;
+    color: aliceblue;
+    
 }
 
 /* Section styles */
@@ -44,7 +46,7 @@ header {
 /* Heading styles */
 h1, h2, h3 {
     font-size: 28px;
-    color: #FFD700; /* Vivid Yellow */
+    color: #0099cc; /* Blue text color */
     margin-top: 20px;
     font-weight: bold;
 }
@@ -58,7 +60,7 @@ p {
 
 /* Link styles */
 a {
-    color: #FFD700; /* Vivid Yellow link text */
+    color: gold; /* Blue link text color */
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -124,7 +126,7 @@ footer {
 
 /* Prominent style for the "Skip to main content" link */
 nav a[href="#main-content"] {
-    color: #FFD700; /* Vivid Yellow */
+    color: gold; /* Blue text color */
     background-color: #222e36; /* Accent color for background */
     padding: 5px 10px; /* Add some padding */
     border-radius: 5px; /* Rounded corners */
