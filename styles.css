@@ -48,7 +48,10 @@ header {
 }
 
 /* Section styles */
-.welcome-section, .selected-work-section, .introduction-section, .conclusion-section {
+.welcome-section,
+.selected-work-section,
+.introduction-section,
+.conclusion-section {
     margin-top: 20px;
     max-width: 1000px;
 }
@@ -107,7 +110,8 @@ dt {
 }
 
 /* Style for card containers and content containers */
-.card-container, .content-container {
+.card-container,
+.content-container {
     background-color: #222e36; /* Dark blue background */
     color: #fff; /* White text */
     padding: 10px; /* Add padding for space within the card */
@@ -115,6 +119,13 @@ dt {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     max-width: 1000px; /* Limit the width and center content */
+    position: relative; /* Add position relative */
+}
+
+/* Style for images within card containers */
+.card-container img {
+    max-width: calc(100% - 20px); /* Set max width to 10px less than container width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Table styles */
@@ -125,7 +136,8 @@ table {
     margin-bottom: 30px;
 }
 
-table, th, td {
+table,
+th, td {
     border: 1px solid #0099cc; /* Blue border for table and cells */
 }
 
