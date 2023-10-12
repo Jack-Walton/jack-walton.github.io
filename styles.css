@@ -16,6 +16,7 @@ body {
 /* Center content on the page */
 .center-content {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -35,7 +36,7 @@ header {
     padding: 10px;
     text-align: center;
     display: flex; /* Flex container */
-    justify-content: space-between; /* Elements appear side-by-side */
+    justify-content: space between; /* Elements appear side-by-side */
     align-items: center; /* Center vertically */
 }
 
@@ -44,28 +45,6 @@ header {
     font-size: 36px;
     margin-top: 10px;
     color: aliceblue;
-}
-
-/* Navigation bar styles */
-.navigation-bar {
-    /* Add your styles for the navigation bar here */
-    background-color: #333; /* Background color for the navigation bar */
-    padding: 10px; /* Padding for the navigation bar */
-    text-align: left; /* Align text to the left within the navigation bar */
-    display: flex; /* Create a flex container for navigation items */
-    align-items: center; /* Vertically center navigation items */
-    justify-content: space-between; /* Create space between navigation items */
-}
-
-/* Add styles for navigation links within the navigation-bar if needed */
-.navigation-bar ul {
-    list-style: none;
-    padding: 0;
-}
-
-.navigation-bar ul li {
-    display: inline;
-    margin-right: 20px;
 }
 
 /* Section styles */
@@ -230,38 +209,5 @@ caption, .figure-caption {
     padding-top: 20px;
     font-weight: bold;
 }
-
-/* Navigation bar styles */
-.navigation-bar {
-    /* Add your styles for the navigation bar here */
-}
-
-/* Main content layout */
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #121212;
-    min-height: 100vh;
-    color: #fff;
-    font-family: 'Didact Gothic', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.wrapper {
-    display: flex;
-    max-width: 100%;
-}
-
-.main-content {
-    flex: 1;
-    padding: 20px;
-    background-color: #1a1a1a;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-}
-
-/* Adjust styles as needed */
 
 /* Adjust styles as needed */
