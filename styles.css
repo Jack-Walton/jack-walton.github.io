@@ -74,7 +74,7 @@ h3 {
 
 /* Style for the "LEGEND" text */
 .legend {
-    color: #888; /* Grey color */
+    color: #d4e1a1; /* Grey color */
     padding: 10px; /* Add padding for separation */
     padding-left: 100px;
     font-size: 12px !important; /* Use !important to override global p element rules */
@@ -209,5 +209,25 @@ caption, .figure-caption {
     padding-top: 20px;
     font-weight: bold;
 }
+
+.navbar {
+    background-color: #222e36; /* Dark blue background */
+    text-align: center; /* Center the anchor horizontally */
+    padding: 10px 0; /* Add some padding for better spacing */
+}
+
+.centered-link {
+    font-weight: bolder;
+    background-color: #0f4569; /* Dark blue background */
+    padding: 10px 20px; /* Add padding to the anchor */
+    text-decoration: none; /* Remove underlines from the link */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.centered-link:hover {
+    background-color: #0099cc; /* Change background color on hover */
+}
+
 
 /* Adjust styles as needed */
