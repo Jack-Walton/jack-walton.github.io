@@ -74,7 +74,7 @@ h3 {
 
 /* Style for the "LEGEND" text */
 .legend {
-    color: #888; /* Grey color */
+    color: #d4e1a1; /* Grey color */
     padding: 10px; /* Add padding for separation */
     padding-left: 100px;
     font-size: 12px !important; /* Use !important to override global p element rules */
