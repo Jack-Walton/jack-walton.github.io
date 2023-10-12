@@ -49,7 +49,10 @@ header {
 }
 
 /* Section styles */
-.welcome-section, .selected-work-section, .introduction-section, .conclusion-section {
+.welcome-section,
+.selected-work-section,
+.introduction-section,
+.conclusion-section {
     margin-top: 20px;
     max-width: 100%;
     padding: 10px; /* Adjusted padding for mobile */
@@ -109,7 +112,8 @@ dt {
 }
 
 /* Style for card containers and content containers */
-.card-container, .content-container {
+.card-container,
+.content-container {
     background-color: #222e36; /* Dark blue background */
     color: #fff; /* White text */
     padding: 10px; /* Add padding for space within the card */
@@ -117,6 +121,13 @@ dt {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
     max-width: 100%;
+    position: relative; /* Add position relative */
+}
+
+/* Style for images within card containers */
+.card-container img {
+    max-width: calc(100% - 20px); /* Set max width to 10px less than container width */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Table styles */
@@ -127,11 +138,14 @@ table {
     margin-bottom: 20px; /* Adjusted margin for mobile */
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid #0099cc; /* Blue border for table and cells */
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
 }
@@ -177,11 +191,6 @@ nav a[href="#main-content"] {
     font-weight: bold;
 }
 
-img {
-    padding-left: 10px;
-    max-width: 100%; /* Adjusted max-width for mobile */
-}
-
 /* Paragraph styles inside .legend divs */
 .legend p {
     font-size: 12px !important; /* Use !important to override global p element rules */
@@ -195,7 +204,8 @@ img {
     text-align: center;
 }
 
-caption, .figure-caption {
+caption,
+.figure-caption {
     padding-top: 10px; /* Adjusted padding for mobile */
     font-weight: bold;
 }
