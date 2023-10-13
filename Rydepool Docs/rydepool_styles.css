@@ -4,7 +4,7 @@ html, body, ul {
     padding: 0;
 }
 
-/* Style the container to hold the navbar and content */
+/* Container for the navbar and content */
 .container {
     display: flex;
     height: 100vh;
@@ -12,7 +12,8 @@ html, body, ul {
     justify-content: space-between; /* To separate navbar and content */
 }
 
-/* Style the left navbar */
+
+/* Left navbar styles */
 .navbar {
     background-color: #222e36; /* Dark blue background */
     color: #fff;
@@ -23,6 +24,16 @@ html, body, ul {
     flex-direction: column; /* Stack the items vertically */
     justify-content: flex-start; /* Align items at the top */
 }
+
+
+main {
+    width: calc(100% - 250px); /* Full width except for the navbar width */
+    padding: 20px;
+    background-color: #1a1a1a; /* Slightly lighter background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
 
 .navbar ul {
     list-style: none;
@@ -46,7 +57,7 @@ html, body, ul {
 /* Style the right content area */
 .content {
     padding: 20px;
-    background-color: #121212;
+    background-color: #dd0606;
     height: 100vh; /* Occupies full height of the screen */
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack the items vertically */
@@ -63,7 +74,7 @@ body, h1, h2, p, dl, dt, dd, ul, th, td {
 /* Global styling */
 body {
     font-family: 'Didact Gothic', sans-serif;
-    background-color: #121212; /* Dark background */
+    background-color: #1a1a1a; /* Dark background */
     color: #fff; /* White text */
     line-height: 1.6;
     margin: 0; /* Remove body margin */
@@ -104,7 +115,7 @@ header {
     align-items: center;
     text-align: center;
     justify-content: center;
-    max-width: 100px;
+    max-width: 1000px;
 }
 
 /* Heading styles */
