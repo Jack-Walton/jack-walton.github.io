@@ -11,19 +11,17 @@ body {
     color: #fff; /* White text */
     line-height: 1.6;
     margin: 0; /* Remove body margin */
-}
-
-/* Center content on the page */
-.center-content {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 /* Container for page content */
 .container {
+    display: flex;
+    flex-wrap: wrap;
     max-width: 100%; /* Full viewport width */
-    padding: 20px;
+    padding: 0; /* Remove padding for the container */
     background-color: #1a1a1a; /* Slightly lighter background */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
@@ -35,9 +33,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: center;
-    display: flex; /* Flex container */
-    justify-content: space between; /* Elements appear side-by-side */
-    align-items: center; /* Center vertically */
+    width: 100%; /* Header takes up the full width of the container */
 }
 
 /* Page title style */
@@ -45,6 +41,45 @@ header {
     font-size: 36px;
     margin-top: 10px;
     color: aliceblue;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #222e36; /* Dark blue background */
+    color: #fff;
+    padding: 10px;
+    width: 20%; /* Navbar takes up 20% of the container width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for individual navbar links */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 5px 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.content-container {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
 }
 
 /* Section styles */
@@ -110,8 +145,7 @@ dt {
 }
 
 /* Style for card containers and content containers */
-.card-container,
-.content-container {
+.card-container {
     background-color: #222e36; /* Dark blue background */
     color: #fff; /* White text */
     padding: 10px; /* Add padding for space within the card */
@@ -151,13 +185,16 @@ th {
     color: #fff;
 }
 
-/* Footer styles with a lighter background */
+/* Footer styles with a larger height and centered images */
 footer {
     background-color: #262626; /* Slightly lighter footer background */
     color: #fff;
-    padding: 10px;
+    padding: 20px; /* Increase padding for a larger footer */
     text-align: center;
     margin: 0; /* Remove margin */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
 }
 
 /* Container for social links */
@@ -165,6 +202,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px; /* Add spacing between social links */
 }
 
 /* Style for individual social links */
@@ -199,23 +237,4 @@ img {
 caption, .figure-caption {
     padding-top: 20px;
     font-weight: bold;
-}
-
-.navbar {
-    background-color: #222e36; /* Dark blue background */
-    text-align: center; /* Center the anchor horizontally */
-    padding: 10px 0; /* Add some padding for better spacing */
-}
-
-.centered-link {
-    font-weight: bolder;
-    background-color: #0f4569; /* Dark blue background */
-    padding: 10px 20px; /* Add padding to the anchor */
-    text-decoration: none; /* Remove underlines from the link */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth background color transition */
-}
-
-.centered-link:hover {
-    background-color: #0099cc; /* Change background color on hover */
 }
