@@ -99,9 +99,13 @@ a:hover {
 }
 
 /* List styles */
+ul, ol {
+    
+    padding-left: 2.5rem;
+}
+
 ul {
     list-style: disc;
-    padding-left: 20px;
 }
 
 /* Definition term styles */
