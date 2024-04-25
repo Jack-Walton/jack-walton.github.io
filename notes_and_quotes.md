@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="Notes and Quotes">
-    <meta name="author" content="Your Name">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes and Quotes</title>
+<meta charset="UTF-8">
+<meta name="description" content="Notes and Quotes">
+<meta name="author" content="Your Name">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notes and Quotes</title>
 
-    <!-- Link to main CSS file for larger screens -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
+<!-- Link to main CSS file for larger screens -->
+<link rel="stylesheet" type="text/css" href="styles.css">
 
-    <!-- Link to mobile CSS file for smaller screens -->
-    <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 768px)">
+<!-- Link to mobile CSS file for smaller screens -->
+<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 768px)">
 
 </head>
 
