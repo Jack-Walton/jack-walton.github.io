@@ -7,7 +7,6 @@
 <meta name="description" content="Notes and Quotes">
 <meta name="author" content="Jack Walton">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 768px)">
 
