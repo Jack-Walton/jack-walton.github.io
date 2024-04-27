@@ -8,11 +8,7 @@
 <meta name="author" content="Jack Walton">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
-<!-- Link to main CSS file for larger screens -->
 <link rel="stylesheet" type="text/css" href="styles.css">
-
-<!-- Link to mobile CSS file for smaller screens -->
 <link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 768px)">
 
 </head>
@@ -20,7 +16,7 @@
 <body>
 
 # Notes and Quotes
-    
+
 This page is dedicated to various snippets and quotes from things that I read. I may use this material in other parts of my work at some point. Who knows? Thanks for your visit.
 
 ## Quotes
