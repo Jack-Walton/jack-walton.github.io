@@ -1,1 +1,3 @@
-# This is my personal website
+# Jack's Website
+
+This is my personal website.
