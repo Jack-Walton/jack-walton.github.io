@@ -1,0 +1,1 @@
+In 1943, the King of Italy ordered his guards to arrest Benito Mussolini. This action was both completely morally justified and highly undemocratic.
