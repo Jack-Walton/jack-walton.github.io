@@ -35,5 +35,3 @@ Complete the following steps to create an account:
   <img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_10.jpg"
   alt="Step 10"  width="250"/>
 </ol>
-
-Your account is now created, and you are ready to [navigate the app]({{ site.baseurl }}/AXS/navigate_app), [search for an event]({{ site.baseurl }}/AXS/search_for_event), and [buy tickets]({{ site.baseurl }}/AXS/buy_tickets)!
