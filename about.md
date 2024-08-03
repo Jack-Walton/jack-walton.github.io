@@ -2,7 +2,7 @@
 layout: default
 title: About
 ---
-# About page
+# About
 
 This page tells you a little bit about me. For instance, you can view my resume below.
 
