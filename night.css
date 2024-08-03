@@ -23,6 +23,23 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    padding-left: 40px; /* Add left padding to the body */
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding-left: 20px; /* Adjust for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding-left: 10px; /* Adjust for very small screens */
+    }
+}
+
+
 html, body {
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
