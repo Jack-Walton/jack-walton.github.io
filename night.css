@@ -23,7 +23,8 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-body {
+
+.content {
     padding-left: 40px; /* Add left padding to the body */
 }
 
