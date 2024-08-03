@@ -2,7 +2,7 @@
 layout: default
 title: AXS Exercise
 ---
-# AXS Take-Home Assessment
+# How to Use the AXS App
 
 The AXS App allows fans to find great events at their favorite venues, buy 100% official tickets and sell their seats if they cannot attend. Most importantly, they can use the app for venue entry on event day!
 
@@ -15,4 +15,4 @@ See the pages below to learn more about how to use the AXS App:
 - [Search for an Event]({{ site.baseurl }}/search_for_event)
 - [Buy Tickets]({{ site.baseurl }}/buy_tickets)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6nEDt4tAcjg?si=cq-pWb2UDCp8AHsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6nEDt4tAcjg?si=cq-pWb2UDCp8AHsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border:3px solid black;"></iframe>
