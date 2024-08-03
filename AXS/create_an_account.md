@@ -10,7 +10,7 @@ Complete the following steps to create an account:
 1. From the landing screen, select the profile button.
 <br />
 <br />
-<img src="{{ site.baseurl }}/pictures/AXS/create_an_account/create_an_account_step_1.jpg"
+<img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_1.jpg"
   alt="Step 1"  width="250"/>
 
 2. Select **Log In or Sign Up**.
@@ -18,7 +18,7 @@ Complete the following steps to create an account:
 3. If you have a Facebook account or an Apple account, you can use those credentials to create an account. Otherwise, select **Sign Up** to sign up with your email address.
 <br />
 <br />
-<img src="{{ site.baseurl }}/pictures/AXS/create_an_account/create_an_account_step_3.jpg"
+<img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_3.jpg"
   alt="Step 3"  width="250"/>
 
 4. Enter your first name, last name, email address, and a password. Ensure that the password is at least eight characters long and contains the following characters:
@@ -32,7 +32,7 @@ Complete the following steps to create an account:
 5. Select the checkbox to indicate that you understand you might need to show identification to enter a venue.
 <br />
 <br />
-<img src="{{ site.baseurl }}/pictures/AXS/create_an_account/create_an_account_step_5.jpg"
+<img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_5.jpg"
   alt="Step 5"  width="250"/>
 
 6. Read the **Terms and Conditions** and the **Privacy Policy**. If you agree to the terms, select **Create Account**.
@@ -42,7 +42,7 @@ Complete the following steps to create an account:
 8. After you have verified your email, in the AXS app, select **Continue**.
 <br />
 <br />
-<img src="{{ site.baseurl }}/pictures/AXS/create_an_account/create_an_account_step_8.jpg"
+<img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_8.jpg"
   alt="Step 8"  width="250"/>
 
 9. Enter your telephone number. Then, select **Send Code Via Text** to verify your account.
@@ -50,7 +50,7 @@ Complete the following steps to create an account:
 10. Enter the six-digit code sent to your phone.
 <br />
 <br />
-<img src="{{ site.baseurl }}/pictures/AXS/create_an_account/create_an_account_step_10.jpg"
+<img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_10.jpg"
   alt="Step 10"  width="250"/>
 
 
