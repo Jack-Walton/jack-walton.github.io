@@ -15,7 +15,7 @@ Complete the following steps to create an account:
   <li>If you have a Facebook account or an Apple account, you can use those credentials to create an account. Otherwise, select <strong>Sign Up</strong> to sign up with your email address.</li>
   <img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_3.jpg"
   alt="Step 3"  width="250"/>
-  <li>Enter your first name, last name, email address, and a password. Ensure that the password is at least eight characters long and contains the following characters
+  <li>Enter your first name, last name, email address, and a password. Ensure that the password is at least eight characters long and contains the following characters:
   <ul>
     <li>One uppercase letter</li>
     <li>One lowercase letter</li>
