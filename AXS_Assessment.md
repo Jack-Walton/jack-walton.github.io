@@ -15,4 +15,4 @@ See the pages below to learn more about how to use the AXS App:
 - [Search for an Event]({{ site.baseurl }}/search_for_event)
 - [Buy Tickets]({{ site.baseurl }}/buy_tickets)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/6nEDt4tAcjg?si=cq-pWb2UDCp8AHsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border:3px solid black;"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6nEDt4tAcjg?si=cq-pWb2UDCp8AHsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border:0.25rem solid black; max-width: 100%"></iframe>
