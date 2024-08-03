@@ -2,7 +2,7 @@
 layout: AXS
 title: AXS Exercise
 ---
-## Welcome!
+## Overview
 
 The AXS App allows fans to find great events at their favorite venues, buy 100% official tickets and sell their seats if they cannot attend. Most importantly, they can use the app for venue entry on event day!
 
