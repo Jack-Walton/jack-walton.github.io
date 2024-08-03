@@ -14,6 +14,7 @@ Complete the following steps to create an account:
   alt="Step 1"  width="250"/>
 
 2. Select **Log In or Sign Up**.
+
 3. If you have a Facebook account or an Apple account, you can use those credentials to create an account. Otherwise, select **Sign Up** to sign up with your email address.
 <br />
 <br />
@@ -21,10 +22,12 @@ Complete the following steps to create an account:
   alt="Step 3"  width="250"/>
 
 4. Enter your first name, last name, email address, and a password. Ensure that the password is at least eight characters long and contains the following characters:
+   
    - One uppercase letter
+   
    - One lowercase letter
+   
    - One number
-
 
 5. Select the checkbox to indicate that you understand you might need to show identification to enter a venue.
 <br />
@@ -33,7 +36,9 @@ Complete the following steps to create an account:
   alt="Step 5"  width="250"/>
 
 6. Read the **Terms and Conditions** and the **Privacy Policy**. If you agree to the terms, select **Create Account**.
+
 7. Access your email inbox and view the email that we sent you. Select **Verify Email**. A confirmation message is displayed in your browser.
+
 8. After you have verified your email, in the AXS app, select **Continue**.
 <br />
 <br />
@@ -41,6 +46,7 @@ Complete the following steps to create an account:
   alt="Step 8"  width="250"/>
 
 9. Enter your telephone number. Then, select **Send Code Via Text** to verify your account.
+
 10. Enter the six-digit code sent to your phone.
 <br />
 <br />
