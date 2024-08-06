@@ -9,7 +9,7 @@ Complete the following steps to create an account:
 
 <ol>
   <li>Access the <strong>profile</strong> screen. See <a href="{{ site.baseurl }}/AXS/navigate_app">Navigate the App</a> for more information about how to access the <strong>profile</strong> screen.</li>
-    <img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_1.jpg"
+  <img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_1.jpg"
   alt="Step 1"  width="250"/>
   <li> Select <strong>Log In or Sign Up</strong>.</li>
   <li>If you have a Facebook account or an Apple account, you can use those credentials to create an account. Otherwise, select <strong>Sign Up</strong> to sign up with your email address.</li>
