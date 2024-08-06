@@ -30,7 +30,7 @@ Access the **profile** screen to view your notifications, order history, setting
 
 From the **Quick Access** section, you can view your notifications and order history. These options help you stay up to date on any events you plan to attend, or see the details of the events you have attended.
 
-From the **Settings** section, you can turn location services on or off, change your home location, and update other settings. Select **Account Settings** to update your personal information, password, or payment methods. could be "Select Account Settings to update your personal information, change your password, or manage payment methods.Select **App Settings** to adjust the appearance of the app. You can also change your **Cookie Preferences** and **Notification Settings**.
+From the **Settings** section, you can turn location services on or off, change your home location, and update other settings. Select **Account Settings** to update your personal information, password, or payment methods. Select **App Settings** to adjust the appearance of the app. You can also change your **Cookie Preferences** and **Notification Settings**.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_2.jpg"
   alt="The Settings section of the profile screen"  width="250"/>
