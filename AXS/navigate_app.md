@@ -52,7 +52,7 @@ The events in your home location are displayed as a rotating series of cards tha
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/recently_viewed_events.jpg"
   alt="The Recently Viewed and Explore Event Genres sections"  width="250"/>
 
-You can use the **Discover Events** section to filter by events that are happening today, tomorrow, or this weekend. Select the **Events Happening** drop-down list to filter events by when they happen. Recently announced events are displayed at the bottom of the **search** screen.
+You can use the **Discover Events** section to filter by events that are happening today, tomorrow, or this weekend. Recently announced events are also displayed in this section. Select the **Events Happening** drop-down list to filter events by when they happen.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/discover_events.jpg"
   alt="The Discover Events section"  width="250"/>
@@ -65,14 +65,21 @@ The **Your Events** screen is organized into the following three tabs:
 2. Transferred
 3. Past
 
-You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened.
+You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened. If you don't see your events, select **Referesh** to download the latest event information to the app.
+
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/your_events.jpg"
+  alt="The Your Events screen"  width="250"/>
 
 ## Ticket Resale
 
 The **ticket resale** screen allows you to sell your tickets if your plans change. The screen displays any tickets that you have available to sell, along with instructions on how to sell them.
 
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/ticket_resale_1.jpg"
+  alt="The ticket resale screen"  width="250"/>
+
 At the bottom of the app, you can select **Active Listings** to view any tickets you currently have up for sale. Select **Sold Listings** to view any tickets that you have sold. Select **Sales Balance** to view any money you have made from your ticket sales and transfer it to your bank account.
 
->**Note**
->
->The **Active Listings** and **Sold Listings** options are only available when you have tickets for sale, or have sold tickets.
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/ticket_resale_2.jpg"
+  alt="The listings options"  width="250"/>
+
+The **Active Listings** and **Sold Listings** options are only available when you have tickets for sale, or have sold tickets.
