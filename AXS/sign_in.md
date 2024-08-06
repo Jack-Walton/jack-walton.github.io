@@ -7,7 +7,7 @@ title: Sign In
 Complete the following steps to sign in to the App:
 
 <ol>
-  <li>Access the <strong>profile</strong> screen. See <a href="{{ site.baseurl }}/AXS/navigate_app">Navigate the App</a> for more information about how to access the <strong>profile</strong> screen.</li>
+  <li>Access the <strong>Profile</strong> screen. See <a href="{{ site.baseurl }}/AXS/navigate_app">Navigate the App</a> for more information about how to access the <strong>Profile</strong> screen.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/create_an_account/create_an_account_step_1.jpg"
   alt="Step 1"  width="250"/>
   <li>Select <strong>Log In or Sign Up</strong>.</li>

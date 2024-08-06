@@ -23,13 +23,13 @@ Complete the following steps to buy tickets:
     <li>Optionally, select the checkbox to save this payment method for future purchases.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_6.jpg"
     alt="Step 6"  width="250"/>
-    <li>Press <strong>Continue</strong>.</li>
-    <li>Enter your billing address, then press <strong>Continue</strong>.</li>
+    <li>Tap <strong>Continue</strong>.</li>
+    <li>Enter your billing address, then tap <strong>Continue</strong>.</li>
     <li>Indicate whether you want to protect your purchase.</li>
     <li>Review your order information, the <strong>Terms of Use</strong>, and so on.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_10.jpg"
     alt="Step 10"  width="250"/>
-    <li>If you agree to the terms, select the checkbox and press <strong>Confirm Purchase</strong>.</li>
+    <li>If you agree to the terms, select the checkbox and tap <strong>Confirm Purchase</strong>.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_11.jpg"
     alt="Step 11"  width="250"/>
 </ol>
