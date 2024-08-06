@@ -44,9 +44,18 @@ The **Help & More** section links you to AXS support if you have any further que
 
 The **search** screen allows you to learn more about the AXS events in your area. Directly below the **profile** button, is a search bar and your home location. See <a href="{{ site.baseurl }}/AXS/search_for_event">Search for an Event</a> for more information about how to use the search bar. You can select the home location to view the events in a different area.
 
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/home_location.jpg"
+  alt="The Home Location screen"  width="250"/>
+
 The events in your home location are displayed as a rotating series of cards that you can swipe through. Featured events are displayed towards the top of the app. As you scroll down, you can see your recently viewed events or explore events by genre. If you select a genre from the **Explore Event Genres** section, the search function is displayed, filtered by that genre.
 
-You can use the **Discover Events** section to filter by events that are happening today, tomorrow, or this weekend. Select the **Events Happening** drop-down list to filter events by when they happen. Recently announced events are displayed at the bottom of the **search** screen.  
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/recently_viewed_events.jpg"
+  alt="The Recently Viewed and Explore Event Genres sections"  width="250"/>
+
+You can use the **Discover Events** section to filter by events that are happening today, tomorrow, or this weekend. Select the **Events Happening** drop-down list to filter events by when they happen. Recently announced events are displayed at the bottom of the **search** screen.
+
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/discover_events.jpg"
+  alt="The Discover Events section"  width="250"/>
 
 ## Your Events
 
