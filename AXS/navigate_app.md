@@ -25,9 +25,20 @@ See the sections below to learn more about each screen.
 
 Access the **profile** screen to view your notifications, order history, settings, or help pages. At the very top of this screen, you can access your **AXS Mobile ID**. You will use this QR code to verify your identity at events.
 
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_1.jpg"
+  alt="The top of the profile screen"  width="250"/>
+
 From the **Quick Access** section, you can view your notifications and order history. These options help you stay up to date on any events you plan to attend, or see the details of the events you have attended.
 
 From the **Settings** section, you can turn location services on or off, change your home location, and update other settings. Select **Account Settings** to update your personal information, password, or payment methods. could be "Select Account Settings to update your personal information, change your password, or manage payment methods.Select **App Settings** to adjust the appearance of the app. You can also change your **Cookie Preferences** and **Notification Settings**.
+
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_2.jpg"
+  alt="The Settings section of the profile screen"  width="250"/>
+
+The **Help & More** section links you to AXS support if you have any further questions. Below this section, you can select **Log Out** to sign out of the app.
+
+<img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_3.jpg"
+  alt="The Log Out button"  width="250"/>
 
 ## Search
 
@@ -51,7 +62,7 @@ You can select these tabs to view more information about those events. The **Upc
 
 The **ticket resale** screen allows you to sell your tickets if your plans change. The screen displays any tickets that you have available to sell, along with instructions on how to sell them.
 
-At the bottom of the app, you can select **Active Listings** to view any tickets you currently have up for sale. Select **Sold Listings** to view any tickets that you have sold. Select **Sales Balance** to view the money you have made and transfer it to your bank account.
+At the bottom of the app, you can select **Active Listings** to view any tickets you currently have up for sale. Select **Sold Listings** to view any tickets that you have sold. Select **Sales Balance** to view any money you have made from your ticket sales and transfer it to your bank account.
 
 >**Note**
 >
