@@ -4,7 +4,7 @@ title: Navigate the App
 ---
 # Navigate the App
 
-The AXS app consists of the following screens:
+The AXS App consists of the following screens:
 1. **Profile**
 2. **Search**
 3. **Your events**
@@ -13,29 +13,29 @@ The AXS app consists of the following screens:
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_main_annotated.jpg"
   alt="An annotated picture of the app navigation"  width="250"/>
 
-Select the circle button at the top of the app to access your **profile** screen. You can select the buttons at the bottom of the app to access the **search**, **your events**, and **ticket resale** screens.
+Select the circle button at the top of the app to access your **profile** screen. You can select the buttons at the bottom of the App to access the **search**, **your events**, and **ticket resale** screens.
 
 >**Note**
 >
->The **profile** button is hidden when you scroll down the **search** screen. Scroll back to the top of the app to view the button.
+>The **profile** button is hidden when you scroll down the **search** screen. Scroll back to the top of the App to view the button.
 
 See the sections below to learn more about each screen.
 
 ## Profile
 
-Access the **profile** screen to view your notifications, order history, settings, or help pages. At the very top of this screen, you can access your **AXS Mobile ID**. You will use this QR code to verify your identity at events.
+Access the **profile** screen to view your notifications, order history, settings, or help pages. At the top of this screen, you can access your **AXS Mobile ID**. You will use this QR code to verify your identity at events.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_1.jpg"
   alt="The top of the profile screen"  width="250"/>
 
 From the **Quick Access** section, you can view your notifications and order history. These options help you stay up to date on any events you plan to attend, or see the details of the events you have attended.
 
-From the **Settings** section, you can turn location services on or off, change your home location, and update other settings. Select **Account Settings** to update your personal information, password, or payment methods. Select **App Settings** to adjust the appearance of the app. You can also change your **Cookie Preferences** and **Notification Settings**.
+From the **Settings** section, you can turn location services on or off, change your home location, and update other settings. Select **Account Settings** to update your personal information, password, or payment methods. Select **App Settings** to adjust the appearance of the App. You can also change your **Cookie Preferences** and **Notification Settings**.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_2.jpg"
   alt="The Settings section of the profile screen"  width="250"/>
 
-The **Help & More** section links you to AXS support if you have any further questions. Below this section, you can select **Log Out** to sign out of the app.
+The **Help & More** section links you to AXS support if you have any further questions. Below this section, you can select **Log Out** to sign out of the App.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_3.jpg"
   alt="The Log Out button"  width="250"/>
@@ -47,7 +47,7 @@ The **search** screen allows you to learn more about the AXS events in your area
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/home_location.jpg"
   alt="The Home Location screen"  width="250"/>
 
-The events in your home location are displayed as a rotating series of cards that you can swipe through. Featured events are displayed towards the top of the app. As you scroll down, you can see your recently viewed events or explore events by genre. If you select a genre from the **Explore Event Genres** section, the search function is displayed, filtered by that genre.
+The events in your home location are displayed as a rotating series of cards that you can swipe through. Featured events are displayed toward the top of the App. As you scroll down, you can see your recently viewed events or explore events by genre. If you select a genre from the **Explore Event Genres** section, the search function is displayed, filtered by that genre.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/recently_viewed_events.jpg"
   alt="The Recently Viewed and Explore Event Genres sections"  width="250"/>
@@ -65,7 +65,7 @@ The **Your Events** screen is organized into the following three tabs:
 2. Transferred
 3. Past
 
-You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened. If you don't see your events, select **Referesh** to download the latest event information to the app.
+You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened. If you do not see your events, select **Refresh** to download the latest event information to the App.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/your_events.jpg"
   alt="The Your Events screen"  width="250"/>
