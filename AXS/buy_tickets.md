@@ -15,5 +15,5 @@ Complete the following steps to buy tickets:
 7. Press **Continue**.
 8. Enter your billing address, then press **Continue**.
 9. Indicate whether you would like to protect your purchase.
-9. Review your order information, the **Terms of Use**, **Dispute Resolution & Class Action Waiver**, **Purchase Agreement**, **and Privacy Policy**.
-10. If you agree to the terms, select the checkbox and press **Confirm Purchase**
+10. Review your order information, the **Terms of Use**, **Dispute Resolution & Class Action Waiver**, **Purchase Agreement**, and **Privacy Policy**.
+11. If you agree to the terms, select the checkbox and press **Confirm Purchase**

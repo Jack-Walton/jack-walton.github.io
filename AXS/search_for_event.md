@@ -29,7 +29,7 @@ Complete the following steps to search for events:
     <li>Select the <strong>location</strong> box.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_5.jpg"
     alt="Step 5" width="250"/>
-    <li>Enter a city. You can also select <strong>Use Current Location</strong> or choose from a list of recent locations. A list of events is displayed.</li>
+    <li>Enter a city, select <strong>Use Current Location</strong>, or choose from a list of recent locations. A list of events is displayed.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_6.jpg"
     alt="Step 6" width="250"/>
     <li>You can choose a performer from the <strong>Performers</strong> section to view a list of events by that performer.</li>

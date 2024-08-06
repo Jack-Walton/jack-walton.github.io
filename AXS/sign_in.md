@@ -22,5 +22,5 @@ Complete the following steps to sign in to the app:
   <li>Select <strong>Send Code Via Text</strong> to verify your account.</li>
   <img src="{{ site.baseurl }}/AXS/pictures/sign_in/sign_in_step_5.jpg"
   alt="Step 5"  width="250"/>
-  <li>Enter the six digit code that was sent to your phone number.</li>
+  <li>Enter the six-digit code that was sent to your phone number.</li>
 </ol>
