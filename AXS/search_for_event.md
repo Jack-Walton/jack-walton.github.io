@@ -7,13 +7,13 @@ title: Search for Events
 Complete the following steps to search for events:
 
 <ol>
-    <li>From the top of the <strong>search</strong> screen, select <strong>Search by Events, Performers or Venues</strong>.</li>
+    <li>From the top of the <strong>Search</strong> screen, select <strong>Search by Events, Performers or Venues</strong>.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_1.jpg"
     alt="Step 1" width="250"/>
     <li>In the search bar, enter an event, performer, or venue.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_2.jpg"
     alt="Step 2" width="250"/>
-    <li>Select the <strong>time</strong> box.</li>
+    <li>Select the <strong>Time</strong> box.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_3.jpg"
     alt="Step 3" width="250"/>
     <li>Press <strong>Select Custom Date</strong> and select a date from the calendar. You can also select from the following quick options:
@@ -26,7 +26,7 @@ Complete the following steps to search for events:
     </li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_4.jpg"
     alt="Step 4" width="250"/>
-    <li>Select the <strong>location</strong> box.</li>
+    <li>Select the <strong>Location</strong> box.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_5.jpg"
     alt="Step 5" width="250"/>
     <li>Enter a city, select <strong>Use Current Location</strong>, or choose from a list of recent locations. A list of events is displayed.</li>

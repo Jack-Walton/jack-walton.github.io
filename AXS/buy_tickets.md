@@ -10,7 +10,7 @@ Complete the following steps to buy tickets:
     <li>After you <a href="{{ site.baseurl }}/AXS/search_for_event">search for an event</a>, press <strong>Select Offer</strong>.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_1.jpg"
     alt="Step 1"  width="250"/>
-    <li>Select either <strong>Tickets</strong> or, if available, <strong>AXS Official Resale</strong> to buy tickets on the secondary market.</li>
+    <li>Select either <strong>Tickets</strong> or, if available, <strong>AXS Official Resale</strong> to buy tickets from another user.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_2.jpg"
     alt="Step 2"  width="250"/>
     <li>Select the amount of tickets that you want. Then, press <strong>Continue</strong>.</li>
@@ -25,7 +25,7 @@ Complete the following steps to buy tickets:
     alt="Step 6"  width="250"/>
     <li>Press <strong>Continue</strong>.</li>
     <li>Enter your billing address, then press <strong>Continue</strong>.</li>
-    <li>Indicate whether you would like to protect your purchase.</li>
+    <li>Indicate whether you want to protect your purchase.</li>
     <li>Review your order information, the <strong>Terms of Use</strong>, <strong>Dispute Resolution & Class Action Waiver</strong>, <strong>Purchase Agreement</strong>, and <strong>Privacy Policy</strong>.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/buy_tickets/buy_tickets_step_10.jpg"
     alt="Step 10"  width="250"/>

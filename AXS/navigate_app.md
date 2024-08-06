@@ -13,17 +13,17 @@ The AXS app consists of the following screens:
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_main_annotated.jpg"
   alt="An annotated picture of the app navigation"  width="250"/>
 
-Select the circle button at the top of the app to access your **profile** screen. You can select the buttons at the bottom of the app to access the **search**, **your events**, and **ticket resale** screens.
+Select the circle button at the top of the app to access your **Profile** screen. You can select the buttons at the bottom of the app to access the **Search**, **Your Events**, and **Ticket Resale** screens.
 
 >**Note**
 >
->The **profile** button is hidden when you scroll down the **search** screen. Scroll back to the top of the app to view the button.
+>The **Profile** button is hidden when you scroll down the **Search** screen. Scroll back to the top of the app to view the button.
 
 See the sections below to learn more about each screen.
 
 ## Profile
 
-Access the **profile** screen to view your notifications, order history, settings, or help pages. At the very top of this screen, you can access your **AXS Mobile ID**. You will use this QR code to verify your identity at events.
+Access the **Profile** screen to view your notifications, order history, settings, or help pages. At the very top of this screen, you can access your **AXS Mobile ID**. You will use this QR code to verify your identity at events.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/navigate_app_profile_1.jpg"
   alt="The top of the profile screen"  width="250"/>
@@ -42,7 +42,7 @@ The **Help & More** section links you to AXS support if you have any further que
 
 ## Search
 
-The **search** screen allows you to learn more about the AXS events in your area. Directly below the **profile** button, is a search bar and your home location. See <a href="{{ site.baseurl }}/AXS/search_for_event">Search for an Event</a> for more information about how to use the search bar. You can select the home location to view the events in a different area.
+The **Search** screen allows you to learn more about the AXS events in your area. Directly below the **Profile** button is a search bar and your home location. See <a href="{{ site.baseurl }}/AXS/search_for_event">Search for an Event</a> for more information about how to use the search bar. You can select the home location to view the events in a different area.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/home_location.jpg"
   alt="The Home Location screen"  width="250"/>
@@ -65,14 +65,14 @@ The **Your Events** screen is organized into the following three tabs:
 2. Transferred
 3. Past
 
-You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened. If you don't see your events, select **Referesh** to download the latest event information to the app.
+You can select these tabs to view more information about those events. The **Upcoming** tab displays your events in the future. You can also select **Find Events** to access the **Search** screen. The **Transferred** tab displays any events that you have sent to someone else. Finally, the **Past** tab displays any of your events that have already happened. If you don't see your events, select **Refresh** to download the latest event information to the app.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/your_events.jpg"
   alt="The Your Events screen"  width="250"/>
 
 ## Ticket Resale
 
-The **ticket resale** screen allows you to sell your tickets if your plans change. The screen displays any tickets that you have available to sell, along with instructions on how to sell them.
+The **Ticket Resale** screen allows you to sell your tickets if your plans change. The screen displays any tickets that you have available to sell, along with instructions on how to sell them.
 
 <img src="{{ site.baseurl }}/AXS/pictures/navigate_app/ticket_resale_1.jpg"
   alt="The ticket resale screen"  width="250"/>
