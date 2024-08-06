@@ -39,7 +39,7 @@ Complete the following steps to search for events:
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_8.jpg"
     alt="Step 8" width="250"/>
     <li>You can also select an event from the <strong>Recommended Events</strong> section.</li>
-    <li>Otherwise, select <strong>Search</strong> at the bottom of the app. Your search results are sorted into three tabs, <strong>Events</strong>, <strong>Performers</strong>, and <strong>Venues</strong>. Select a tab and scroll through the results.</li>
+    <li>Otherwise, select <strong>Search</strong> at the bottom of the App. Your search results are sorted into three tabs, <strong>Events</strong>, <strong>Performers</strong>, and <strong>Venues</strong>. Select a tab and scroll through the results.</li>
     <img src="{{ site.baseurl }}/AXS/pictures/search_for_events/search_for_events_step_10.jpg"
     alt="Step 10" width="250"/>
     <li>When you have found an event, select <strong>Buy Now</strong> to purchase the tickets. See <a href="{{ site.baseurl }}/AXS/buy_tickets">Buy Tickets</a> to learn more.</li>

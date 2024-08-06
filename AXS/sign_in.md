@@ -4,7 +4,7 @@ title: Sign In
 ---
 # Sign in to the App
 
-Complete the following steps to sign in to the app:
+Complete the following steps to sign in to the App:
 
 <ol>
   <li>Access the <strong>profile</strong> screen. See <a href="{{ site.baseurl }}/AXS/navigate_app">Navigate the App</a> for more information about how to access the <strong>profile</strong> screen.</li>
@@ -13,7 +13,7 @@ Complete the following steps to sign in to the app:
   <li>Select <strong>Log In or Sign Up</strong>.</li>
   <img src="{{ site.baseurl }}/AXS/pictures/sign_in/sign_in_step_2.jpg"
   alt="Step 2"  width="250"/>
-  <li>Select <strong> Log In</strong>.</li>
+  <li>Select <strong>Log In</strong>.</li>
   <img src="{{ site.baseurl }}/AXS/pictures/sign_in/sign_in_step_3.jpg"
   alt="Step 3"  width="250"/>
   <li>Enter your email address and password. Then, select <strong>Continue</strong>.</li>
